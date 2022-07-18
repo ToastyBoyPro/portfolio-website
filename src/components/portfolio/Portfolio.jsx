@@ -22,36 +22,36 @@ const projects = [
     id: 1,
     image: IMG1,
     title: 'Password Generator',
-    github: 'https//github.com',
-    demo: 'https//github.com'
+    github: 'https://github.com/ToastyBoyPro',
+    demo: 'https://github.com/ToastyBoyPro'
   },
   {
     id: 2,
     image: IMG2,
     title: 'Project 2',
-    github: 'https//github.com',
-    demo: 'https//github.com'
+    github: 'https://github.com/ToastyBoyPro',
+    demo: 'https://github.com/ToastyBoyPro'
   },
   {
     id: 3,
     image: IMG3,
     title: 'Project 3',
-    github: 'https//github.com',
-    demo: 'https//github.com'
+    github: 'https://github.com/ToastyBoyPro',
+    demo: 'https://github.com/ToastyBoyPro'
   },
   {
     id: 4,
     image: IMG4,
     title: 'Project 4',
-    github: 'https//github.com',
-    demo: 'https//github.com'
+    github: 'https://github.com/ToastyBoyPro',
+    demo: 'https://github.com/ToastyBoyPro'
   },
   {
     id: 5,
     image: IMG5,
     title: 'Project 5',
-    github: 'https//github.com',
-    demo: 'https//github.com'
+    github: 'https://github.com/ToastyBoyPro',
+    demo: 'https://github.com/ToastyBoyPro'
   }
 ]
 
