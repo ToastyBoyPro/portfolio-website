@@ -30,14 +30,14 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>sahngpyo@gmail.com</h5>
-            <a href="mailto:sahngpyo@gmail.com" target="_blank">Send a message</a>
+            <a href="mailto:sahngpyo@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </article>
 
           <article className="contact__option">
             <FaTwitter className='contact__option-icon'/>
             <h4>Twitter</h4>
             <h5>@ToastyBoyPro</h5>
-            <a href="https://twitter.com/ToastyBoyPro" target="_blank">Send a tweet</a>
+            <a href="https://twitter.com/ToastyBoyPro" target="_blank" rel="noreferrer">Send a tweet</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

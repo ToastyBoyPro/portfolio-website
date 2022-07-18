@@ -21,10 +21,10 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/robert-park-807780a0/" target="_blank"><BsLinkedin/></a>
-        <a href="https://github.com/ToastyBoyPro" target="_blank"><FaGithub/></a>
-        <a href="https://twitter.com/ToastyBoyPro" target="_blank"><FaTwitter/></a>
-        <a href="https://codepen.io/ToastyBoyPro" target="_blank"><FaCodepen/></a>
+        <a href="https://www.linkedin.com/in/robert-park-807780a0/" target="_blank" rel="noreferrer"><BsLinkedin/></a>
+        <a href="https://github.com/ToastyBoyPro" target="_blank" rel="noreferrer"><FaGithub/></a>
+        <a href="https://twitter.com/ToastyBoyPro" target="_blank" rel="noreferrer"><FaTwitter/></a>
+        <a href="https://codepen.io/ToastyBoyPro" target="_blank" rel="noreferrer"><FaCodepen/></a>
       </div>
 
       <div className="footer__copyright">
