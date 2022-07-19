@@ -23,7 +23,7 @@ const projects = [
     image: IMG1,
     title: 'Password Generator',
     github: 'https://github.com/ToastyBoyPro/Password-Generator',
-    demo: 'tbp-password-generator.netlify.app'
+    demo: 'https://tbp-password-generator.netlify.app'
   },
   {
     id: 2,
