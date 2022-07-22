@@ -70,7 +70,11 @@
 
 .about__content p {
   margin: 2rem 0 2.6rem;
-  color: var(--color-light)
+  color: var(--color-light);
+}
+
+.hook {
+  margin-top: 2.5rem;
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */

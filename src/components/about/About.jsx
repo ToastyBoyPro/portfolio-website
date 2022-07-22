@@ -39,8 +39,11 @@ const About = () => {
             </article>
           </div>
 
-{/* Fill in this section ============================== */}
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti tempore impedit voluptatem omnis assumenda beatae in accusantium, repellendus quibusdam aspernatur ut quae numquam incidunt! Maxime in sapiente aperiam nihil provident?
+          <h3 className='hook'>When was the last time you said, <em>"Wow! That's a good-looking website!"?</em></h3>
+          <p>I am a seasoned water purification chemist turned web developer specializing in implementing visually-stimulating and interactive web applications to bring clients increased traffic. 
+          </p>
+          <p>  
+            Let me know how I can help YOU with YOUR next project!
           </p>
 
           <a href="#contact" className='btn btn-primary btn-about'>Let's Talk</a>
