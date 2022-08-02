@@ -2,8 +2,8 @@ import React from 'react'
 import './portfolio.css'
 /* redo pics===================================== */
 import IMG1 from '../../assets/project1.png'
-import IMG2 from '../../assets/project1.png'
-import IMG3 from '../../assets/project1.png'
+import IMG2 from '../../assets/project2.png'
+import IMG3 from '../../assets/project3.png'
 import IMG4 from '../../assets/project1.png'
 import IMG5 from '../../assets/project1.png'
 
@@ -28,16 +28,16 @@ const projects = [
   {
     id: 2,
     image: IMG2,
-    title: 'Project 2',
-    github: 'https://github.com/ToastyBoyPro',
-    demo: 'https://github.com/ToastyBoyPro'
+    title: 'Centive Investing',
+    github: 'https://github.com/ToastyBoyPro/Centive---Investing-Mockup',
+    demo: 'https://investing-site-mockup.netlify.app/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Project 3',
-    github: 'https://github.com/ToastyBoyPro',
-    demo: 'https://github.com/ToastyBoyPro'
+    title: 'Fitness Helper',
+    github: 'https://github.com/ToastyBoyPro/fitness-helper',
+    demo: 'https://tbp-fitness-app.netlify.app/'
   },
   {
     id: 4,
