@@ -44,7 +44,7 @@ const projects = [
     title: 'Fitness Helper',
     project: 'Workout Companion',
     style: 'React, API',
-    description: 'An exercise website to help you tailor your workouts to meet your needs. ',
+    description: 'An exercise website to help you tailor your workouts to meet your needs.',
     github: 'https://github.com/ToastyBoyPro/fitness-helper',
     demo: 'https://tbp-fitness-app.netlify.app/'
   },
