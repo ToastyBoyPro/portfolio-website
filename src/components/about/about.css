@@ -97,7 +97,7 @@
 /* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
 @media screen and (max-width: 600px) {
   #about {
-    height: 125vh;
+    height: 140vh;
   }
 
   .about__me {
