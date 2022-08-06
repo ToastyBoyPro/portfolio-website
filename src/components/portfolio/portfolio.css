@@ -23,19 +23,47 @@
   background: transparent;
 }
 
+.portfolio__item:hover .portfolio__item-cta {
+  opacity: 85%;
+  transform: translateY(0);
+}
+
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
+  width: 100%;
+  height: 70%;
 }
 
-.portfolio__item h3 {
-  margin: 0.5rem 0;
+.portfolio__item-title {
+  margin: 1rem 0;
 }
 
 .portfolio__item-cta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0%;
+  background: #000;
+  transition: all 1s ease;
+  width: 100%;
+  height: 100%;
+  /* color: #fff */
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  padding: 2rem 2.5rem;
+  transform: translateY(100%);
+
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+
+.portfolio__item-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 .swiper-pagination .swiper-pagination-bullet {

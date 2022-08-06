@@ -1,0 +1,117 @@
+#portfolio {
+  padding-top: 2.5rem;
+  height: 100vh;
+}
+
+.container.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  padding-bottom: 4rem;
+  width: 80%;
+}
+
+/* here */
+.portfolio__item.container_vid0000 {
+  background: var(--color-bg-variant);
+  padding: 1.3rem 1.3rem 0.4rem;
+  border-radius: 2rem;
+  transition: var(--transition);
+  position: relative;
+  border: 2px solid red;
+}
+
+.portfolio__item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+}
+
+.portfolio__item-image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  display: block;
+  align-items: center;
+}
+
+/* here */
+.list-wrapper_vid0000 {
+  overflow: hidden;
+  display: flex;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+/* here */
+.list-item_vid0000 {
+  border: 2px solid white;
+  background: blue; /* transparent */
+  /* position: relative; */
+  /* cursor: pointer; */
+  margin: 10px;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 1.3rem;
+  left: 1.3rem;
+  width: calc(100% - 2.6rem);
+  height: calc(100% - 7rem);
+  /* background: var(--color-bg-variant); */
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* justify-content: center; */
+  opacity: 0;
+  border-radius: 1.5rem;
+  padding: 1.3rem;
+  transition: opacity 0.25s;
+}
+
+.image__overlay > * {
+  transform: translateY(100px);
+  transition: transform 0.5s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__title {
+  margin: 0.5rem 0;
+  font-size:1.5rem;
+}
+
+.portfolio__item-cta {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  background: var(--color-primary);
+}
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1024px) {
+  .container.portfolio__container {
+    /* grid-template-columns: 1fr 1fr; */
+    gap: 1.2rem;
+  
+  }
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+  #portfolio {
+    height: 100vh;
+  }
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
