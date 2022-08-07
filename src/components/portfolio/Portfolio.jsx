@@ -22,7 +22,8 @@ const projects = [
     style: 'React, APIs, SyncFusion',
     description: 'An admin dashboard featuring interactive revenue charts, Kanban, side panel, calendar, and theme settings.',
     github: 'https://github.com/ToastyBoyPro/dashboard',
-    demo: 'https://tbp-dashboard-mockup.netlify.app'
+    demo: 'https://tbp-dashboard-mockup.netlify.app',
+    comments: ''
   },
   {
     id: 2,
@@ -32,7 +33,8 @@ const projects = [
     style: 'React',
     description: 'A customizable website with recycleable components that can be edited to fit your needs.',
     github: 'https://github.com/ToastyBoyPro/Centive---Investing-Mockup',
-    demo: 'https://investing-site-mockup.netlify.app/'
+    demo: 'https://investing-site-mockup.netlify.app/',
+    comments: 'https://bit.ly/3QpyV6V'
   },
   {
     id: 3,
@@ -42,7 +44,8 @@ const projects = [
     style: 'React, APIs',
     description: 'With over a 1000 exercises, you will never have trouble figuring out a workout again.',
     github: 'https://github.com/ToastyBoyPro/fitness-helper',
-    demo: 'https://tbp-fitness-app.netlify.app/'
+    demo: 'https://tbp-fitness-app.netlify.app/',
+    comments: ''
   },
   {
     id: 4,
@@ -52,7 +55,8 @@ const projects = [
     style: 'Javascript, HTML, CSS',
     description: 'Use this handy app to create your unique password of desired length.',
     github: 'https://github.com/ToastyBoyPro/Password-Generator',
-    demo: 'https://tbp-password-generator.netlify.app'
+    demo: 'https://tbp-password-generator.netlify.app',
+    comments: 'https://bit.ly/3Qp82jI'
   }
 ]
 
@@ -81,7 +85,7 @@ const Portfolio = () => {
         }}
       >
         {
-          projects.map(({id, image, title, project, style, description, github, demo}) => {
+          projects.map(({id, image, title, project, style, description, github, demo, comments}) => {
             return (
               <SwiperSlide key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
@@ -95,6 +99,7 @@ const Portfolio = () => {
                     <h3>{project}</h3>
                     <p>{style}</p><br></br>
                     <p>{description}</p>
+                    <a href={comments} target='_blank' rel="noreferrer">Commentary</a>
                   </div>
                   <div className="portfolio__item-links">
                     <a href={github} className="btn" target='_blank' rel="noreferrer">Github</a>
