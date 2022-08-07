@@ -1,20 +1,18 @@
 import React from 'react'
 import './portfolio.css'
-/* redo pics===================================== */
 import IMG1 from '../../assets/project1.png'
 import IMG2 from '../../assets/project2.png'
 import IMG3 from '../../assets/project3.png'
 import IMG4 from '../../assets/project4.png'
 
 // import Swiper core and required modules
-import {Mousewheel, Pagination} from 'swiper'
+import { Mousewheel, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 // Import Swiper styles
 import 'swiper/css'
 import 'swiper/css/pagination'
 
-/* Adjust info===================== */
 const projects = [
   {
     id: 1,
