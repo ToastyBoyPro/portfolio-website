@@ -45,7 +45,7 @@ const projects = [
     description: 'With over a 1000 exercises, you will never have trouble figuring out a workout again.',
     github: 'https://github.com/ToastyBoyPro/fitness-helper',
     demo: 'https://tbp-fitness-app.netlify.app/',
-    comments: ''
+    comments: 'https://bit.ly/3p2XJGh'
   },
   {
     id: 4,

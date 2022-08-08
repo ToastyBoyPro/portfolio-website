@@ -1,6 +1,6 @@
 #experience {
   padding-top: 2.5rem;
-  height: 100vh;
+  height: 900px;
 }
 
 .experience__container {
@@ -46,6 +46,10 @@
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
 @media screen and (max-width: 1024px) {
+  #experience {
+    height: 100vh;
+  }
+
   .experience__container {
     grid-template-columns: 1fr;
   }
@@ -62,11 +66,9 @@
 }
 
 /* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   #experience {
-    
     height: 110vh;
-    
   }
 
   .experience__container {

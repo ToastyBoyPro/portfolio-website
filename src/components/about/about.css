@@ -1,6 +1,6 @@
 #about {
   padding-top: 3rem;
-  height: 100vh;
+  height: 900px;
 }
 
 .about__container {
@@ -79,6 +79,10 @@
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
 @media screen and (max-width: 1024px) {
+  #about {
+    height: 100vh;
+  }
+
   .about__container{
     grid-template-columns: 1fr;
     gap: 0;
@@ -95,9 +99,9 @@
 }
 
 /* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   #about {
-    height: 140vh;
+    height: 180vh;
   }
 
   .about__me {
