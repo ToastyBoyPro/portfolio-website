@@ -23,7 +23,7 @@ const projects = [
     description: 'An admin dashboard featuring interactive revenue charts, Kanban, side panel, calendar, and theme settings.',
     github: 'https://github.com/ToastyBoyPro/dashboard',
     demo: 'https://tbp-dashboard-mockup.netlify.app',
-    comments: ''
+    comments: 'https://bit.ly/3C7nkp4'
   },
   {
     id: 2,
